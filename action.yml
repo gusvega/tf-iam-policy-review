@@ -1,0 +1,10 @@
+name: "IAM Policy Review"
+description: "Review IAM policies for least privilege (containerized)."
+author: "gusvega"
+branding:
+  icon: "lock"
+  color: "blue"
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
